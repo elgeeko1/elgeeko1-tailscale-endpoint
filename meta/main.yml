@@ -1,0 +1,11 @@
+galaxy_info:
+  role_name: elgeeko1-tailscale-endpoint
+  author: elgeeko1
+  description: "Tailscale endpoint role using an existing auth key."
+  license: MIT
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+collections:
+  - community.general
