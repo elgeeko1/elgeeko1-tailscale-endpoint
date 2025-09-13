@@ -21,6 +21,7 @@
     state: present
 
 - name: Apt update cache
+  become: true
   ansible.builtin.apt:
     update_cache: "{{ tailscale_repo.changed | bool }}"
 
